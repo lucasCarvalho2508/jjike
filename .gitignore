@@ -1,0 +1,22 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.yml
+secrets.yaml
+
+# Python virtual environments
+.venv/
+venv/
+
+# dbt artifacts and installed packages
+target/
+dbt_packages/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
