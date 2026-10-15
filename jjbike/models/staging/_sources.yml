@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: jjbike_origem
+    description: "Fontes de dados transacionais do projeto JJbike no Supabase."
+    database: postgres 
+    schema: public 
+    
+    tables:
+      - name: produtos
+      - name: vendedores
+      - name: clientes
+      - name: vendas
+      - name: itensvenda
